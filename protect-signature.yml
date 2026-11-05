@@ -1,0 +1,27 @@
+name: Proteger assinatura
+
+on:
+  pull_request:
+
+jobs:
+  protect-signature:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Bloquear alteração nos arquivos protegidos
+        run: |
+          CHANGED=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD")
+          echo "Arquivos alterados:"
+          echo "$CHANGED"
+          if echo "$CHANGED" | grep -E '^(components/Signature\.tsx|config/author\.ts|LICENSE)$'; then
+            echo "::error::Este PR altera a assinatura ou a licença, que são protegidas."
+            exit 1
+          fi
+
+      - name: Verificar que a assinatura continua no rodapé
+        run: |
+          grep -q '<Signature' app/page.tsx || { echo "::error::A assinatura foi removida do app/page.tsx"; exit 1; }
+          grep -q 'eljoaogg' config/author.ts || { echo "::error::O nome eljoaogg foi alterado em config/author.ts"; exit 1; }

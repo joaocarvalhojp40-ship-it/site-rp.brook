@@ -1,0 +1,8 @@
+# Toda alteração precisa de aprovação do dono do repositório
+* @joaocarvalhojp40-ship-it
+
+# Arquivos protegidos (assinatura, licença e regras de segurança)
+/components/Signature.tsx @joaocarvalhojp40-ship-it
+/config/author.ts         @joaocarvalhojp40-ship-it
+/LICENSE                  @joaocarvalhojp40-ship-it
+/.github/                 @joaocarvalhojp40-ship-it

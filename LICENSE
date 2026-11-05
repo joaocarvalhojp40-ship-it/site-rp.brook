@@ -1,0 +1,54 @@
+LICENÇA CNV LANDING (baseada na MIT, com cláusula de atribuição)
+
+Copyright (c) 2026 eljoaogg (https://github.com/joaocarvalhojp40-ship-it)
+(código-fonte)
+
+Marca, nome, logo, imagens e textos da CNV: Hyper Squad. Todos os direitos
+reservados (ver cláusula 4).
+
+É concedida permissão, gratuita, a qualquer pessoa que obtenha uma cópia
+deste software e dos arquivos de documentação associados (o "Software"),
+para usar, copiar, modificar, mesclar, publicar e distribuir o Software,
+sujeita às condições abaixo.
+
+1. AVISO DE COPYRIGHT
+   O aviso de copyright acima e esta licença devem ser incluídos em todas
+   as cópias ou partes substanciais do Software.
+
+2. ASSINATURA OBRIGATÓRIA ("eljoaogg")
+   A assinatura "eljoaogg" exibida no rodapé do site, composta pelo
+   componente components/Signature.tsx, pelo arquivo config/author.ts e
+   pelo link para o GitHub do autor, é a marca de autoria deste Software.
+   Ela NÃO pode ser removida, ocultada, redimensionada a ponto de ficar
+   ilegível, alterada, substituída, nem ter o seu link modificado, em
+   nenhuma cópia, fork ou versão derivada que seja publicada, hospedada
+   ou distribuída.
+
+3. O QUE PODE SER MODIFICADO
+   O código-fonte pode ser livremente adaptado, incluindo a estrutura,
+   as cores, os componentes e o conteúdo da sua própria comunidade
+   (textos, regras, leis, sistemas, história e logo). O conteúdo da CNV
+   contido neste repositório segue a cláusula 4.
+
+4. MARCA, NOME, LOGO, IMAGENS E TEXTOS (HYPER SQUAD)
+   O nome "Cidade Nova Roleplay" (CNV), o logo, as imagens e os textos da
+   comunidade (história, regras, leis e sistemas) contidos neste
+   repositório são de USO EXCLUSIVO da Hyper Squad. Eles NÃO são
+   licenciados por esta licença e não podem ser usados, copiados,
+   modificados nem redistribuídos por terceiros sem autorização por
+   escrito da Hyper Squad. Ao usar este projeto, substitua tudo isso pelo
+   conteúdo da sua própria comunidade.
+
+5. ALTERAÇÕES NO REPOSITÓRIO OFICIAL
+   Contribuições ao repositório oficial só são incorporadas mediante
+   aprovação manual do autor.
+
+6. DESCUMPRIMENTO
+   O descumprimento de qualquer condição acima revoga automaticamente a
+   permissão concedida por esta licença.
+
+O SOFTWARE É FORNECIDO "NO ESTADO EM QUE SE ENCONTRA", SEM GARANTIA DE
+QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO, SEM LIMITAÇÃO, AS
+GARANTIAS DE COMERCIALIZAÇÃO E ADEQUAÇÃO A UMA FINALIDADE ESPECÍFICA. EM
+NENHUMA HIPÓTESE O AUTOR SERÁ RESPONSÁVEL POR QUALQUER REIVINDICAÇÃO,
+DANO OU OUTRA RESPONSABILIDADE DECORRENTE DO USO DO SOFTWARE.

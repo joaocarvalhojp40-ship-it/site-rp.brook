@@ -30,7 +30,9 @@ export const siteConfig = {
 export const storyConfig = {
   title: "A História da CNV",
   paragraphs: [
-    "A história da CNV começa em 2022, com o idealizor Bada, nos primeiros meses, a Cidade foi situada no Brasil por um longo período. Em 2023 até 2024, tivemos uma nova sub direção, onde, teve vários ajustes na cidade, acabndo por deixá-la situada nos EUA." "Porém, no final de ano de 2024, a CNV fechou as portas por causa da escassez de jogadores, mas hoje em dia, ela volta com tudo." "Sua história começa agora. Quem você vai ser na Cidade Nova?",
+    "A história da CNV começa em 2022, com o idealizador Bada. Nos primeiros meses, a cidade foi situada no Brasil por um longo período. Em 2023 até 2024, tivemos uma nova sub direção, onde houve vários ajustes na cidade, acabando por deixá-la situada nos EUA.",
+    "Porém, no final de 2024, a CNV fechou as portas por causa da escassez de jogadores, mas hoje em dia ela volta com tudo.",
+    "Sua história começa agora. Quem você vai ser na Cidade Nova?",
   ],
 };
 

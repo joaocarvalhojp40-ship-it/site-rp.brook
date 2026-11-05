@@ -182,8 +182,7 @@ export default function Home() {
             title={rulesConfig.title}
             subtitle={rulesConfig.subtitle}
           />
-          <RulesAccordion rules={rulesConfig.rules} />
-
+          <RulesAccordion />
           <div className="mt-8 rounded-2xl border border-red-600/30 bg-red-600/[0.06] p-6 backdrop-blur-xl">
             <h3 className="flex items-center gap-2 text-lg font-semibold text-white">
               <MapPin className="h-5 w-5 text-red-500" />

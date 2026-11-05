@@ -1,9 +1,14 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Permanent_Marker } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const brush = Permanent_Marker({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-brush",
+});
 
 export const metadata: Metadata = {
   title: `${siteConfig.name} (${siteConfig.shortName})`,
@@ -27,7 +32,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className="dark">
-      <body className={`${inter.variable} font-sans min-h-screen antialiased`}>
+      <body
+        className={`${inter.variable} ${brush.variable} font-sans min-h-screen antialiased`}
+      >
         {children}
       </body>
     </html>

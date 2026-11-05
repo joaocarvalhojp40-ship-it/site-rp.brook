@@ -24,7 +24,7 @@ export const siteConfig = {
   shortName: "CNV",
   description:
     "Uma comunidade de roleplay séria, imersiva e organizada, ambientada em Brookhaven. Viva uma nova vida na Cidade Nova.",
-  discordUrl: "https://discord.gg/SEU-CONVITE",
+  discordUrl: "https://discord.gg/GwsGy54nex",
 };
 
 export const storyConfig = {
@@ -143,7 +143,7 @@ export const lawsConfig: {
   subtitle: string;
   laws: LawItem[];
 } = {
-  title: "Código de Leis de Brookhaven",
+  title: "Código de Leis",
   subtitle: "O desconhecimento da lei não isenta ninguém de suas consequências.",
   laws: [
     {

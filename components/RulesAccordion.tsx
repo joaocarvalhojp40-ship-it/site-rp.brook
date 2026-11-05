@@ -2,10 +2,11 @@
 
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
-import type { RuleItem } from "@/config/site";
+import { rulesConfig } from "@/config/site";
 
-export default function RulesAccordion({ rules }: { rules: RuleItem[] }) {
+export default function RulesAccordion() {
   const [open, setOpen] = useState<number | null>(0);
+  const { rules } = rulesConfig;
 
   return (
     <div className="space-y-3">

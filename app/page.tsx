@@ -9,6 +9,7 @@ import {
   Scale,
 } from "lucide-react";
 import RulesAccordion from "@/components/RulesAccordion";
+import { authorConfig } from "@/config/author";
 import {
   siteConfig,
   storyConfig,
@@ -265,8 +266,27 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="border-t border-white/10 py-8 text-center text-sm text-neutral-500">
-        © {new Date().getFullYear()} {siteConfig.name}. Todos os direitos reservados.
+      <footer className="px-6 pb-10 pt-6">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center justify-between text-xs font-medium text-neutral-200">
+            <span>DESIGN</span>
+            <span>{new Date().getFullYear()}</span>
+          </div>
+          <a
+            href={authorConfig.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`GitHub de ${authorConfig.name}`}
+            className="group mt-2 block border border-red-600/80 px-6 py-10 text-center transition-colors hover:border-[#FF002B]"
+          >
+            <span className="inline-block -rotate-2 font-brush text-5xl text-red-600 transition duration-300 group-hover:scale-105 group-hover:text-[#FF002B] sm:text-7xl">
+              {authorConfig.name}
+            </span>
+          </a>
+          <p className="mt-4 text-center text-xs text-neutral-500">
+            © {new Date().getFullYear()} {siteConfig.name}. Todos os direitos reservados.
+          </p>
+        </div>
       </footer>
     </div>
   );

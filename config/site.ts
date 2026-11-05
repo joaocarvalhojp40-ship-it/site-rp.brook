@@ -30,10 +30,7 @@ export const siteConfig = {
 export const storyConfig = {
   title: "A História da CNV",
   paragraphs: [
-    "Brookhaven sempre foi uma cidade tranquila, de ruas largas, vizinhos conhecidos e uma praça central onde todos se encontravam. Até que a cidade começou a crescer, e com o crescimento vieram a oportunidade, a ambição e a desconfiança.",
-    "Em meio a essa transformação nasceu a Cidade Nova: um recomeço para quem chegava com o sonho de construir uma vida do zero. Policiais, médicos, empresários, criminosos e cidadãos comuns passaram a dividir as mesmas ruas, cada um com seus objetivos, segredos e consequências.",
-    "Hoje, a CNV é uma comunidade que valoriza o roleplay de verdade: cada decisão importa, cada ação tem peso e cada personagem tem uma história para contar. A cidade é de todos, mas só prospera quem respeita as regras do jogo.",
-    "Sua história começa agora. Quem você vai ser na Cidade Nova?",
+    "A história da CNV começa em 2022, com o idealizor Bada, nos primeiros meses, a Cidade foi situada no Brasil por um longo período. Em 2023 até 2024, tivemos uma nova sub direção, onde, teve vários ajustes na cidade, acabndo por deixá-la situada nos EUA." "Porém, no final de ano de 2024, a CNV fechou as portas por causa da escassez de jogadores, mas hoje em dia, ela volta com tudo." "Sua história começa agora. Quem você vai ser na Cidade Nova?",
   ],
 };
 

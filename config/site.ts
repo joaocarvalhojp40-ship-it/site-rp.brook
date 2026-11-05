@@ -23,7 +23,7 @@ export const siteConfig = {
   name: "Cidade Nova Roleplay",
   shortName: "CNV",
   description:
-    "Uma comunidade de roleplay séria, imersiva e organizada, ambientada em Brookhaven. Viva uma nova vida na Cidade Nova."
+    "Uma comunidade de roleplay séria, imersiva e organizada, ambientada em Brookhaven. Viva uma nova vida na Cidade Nova.",
   discordUrl: "https://discord.gg/SEU-CONVITE",
 };
 

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   ArrowRight,
   BookOpen,
@@ -54,9 +55,14 @@ export default function Home() {
       <header className="fixed inset-x-0 top-0 z-50 px-4 pt-4">
         <nav className="glass mx-auto flex max-w-5xl items-center justify-between rounded-2xl px-5 py-3">
           <a href="#" className="flex items-center gap-2 font-bold text-white">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-red-600 text-sm">
-              {siteConfig.shortName[0]}
-            </span>
+            <Image
+              src="/logo.png"
+              alt={`Logo ${siteConfig.name}`}
+              width={36}
+              height={36}
+              priority
+              className="h-9 w-9 rounded-lg object-contain"
+            />
             <span>{siteConfig.shortName}</span>
           </a>
           <ul className="hidden items-center gap-6 text-sm text-neutral-300 md:flex">
@@ -183,6 +189,7 @@ export default function Home() {
             subtitle={rulesConfig.subtitle}
           />
           <RulesAccordion />
+
           <div className="mt-8 rounded-2xl border border-red-600/30 bg-red-600/[0.06] p-6 backdrop-blur-xl">
             <h3 className="flex items-center gap-2 text-lg font-semibold text-white">
               <MapPin className="h-5 w-5 text-red-500" />
